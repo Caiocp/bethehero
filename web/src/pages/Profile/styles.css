@@ -65,7 +65,9 @@
     border: 0;
 }
 
-.profile-container ul li button:hover {
+.profile-container ul li button:hover,
+.profile-container ul li button .Fi-trash:hover {
+    color: #e02041 !important;
     opacity: 0.8;
 }
 
